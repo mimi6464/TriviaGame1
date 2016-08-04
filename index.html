@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+	<script src="assets/javascript/app.js"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>Triva!</title>
+</head>
+<body>
+	<div class="container">
+		<div class="title-section">
+			Totally Trivial Trivia!
+		</div>
+
+		<div id="start-container"  class="well">
+			<button id="btnStart" class="btn btn-success btn-lg btn-block" type="button">Start</button>			
+		</div>
+
+		<div id="question-container">
+			<div class="timer"> Time Remaining: <span id="gameCountDown"> </span> Seconds</div>
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title">Questions</h3>
+				</div>
+				<div class="panel-body">
+					<div id="questions" class="questions">
+					</div>
+					<div style="max-width:400px" class="center-block">
+						<button id="btnDone" type="button" class="btn btn-success btn-lg btn-block">Done</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="answer-container">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title">All Dane!</h3>
+				</div>
+				
+				<div class="panel-body ">
+					<div class="all-correct">
+						Congratulations!
+					</div>
+					<div class="answer-result">
+						<div>Correct Answers <span id="correctAnswerCount"></span></div>
+						<div>Incorrect Answers <span id="wrongAnswerCount"></span></div>
+						<div>Unanswered <span id="unanswerdCount"></span></div>
+					</div>
+					<div style="max-width:400px" class="center-block">
+						<button id="btnTryAgain" type="button" class="btn btn-success btn-lg btn-block">Try Again</button>
+					</div>
+				</div>
+			</div>
+		</div>
+			<!--<div class="questions">
+			<div class="question">1) WHO WAS THE FIRST US PRESIDENT TO DECLARE WAR?</div>
+			<div>
+				<label class="radio-inline">
+					<input type="radio" name="q1" id="inlineRadio1" value="1">
+					JAMES MADISON
+				</label>
+				<label class="radio-inline">
+					<input type="radio" name="q1" id="inlineRadio2" value="2">
+					Teddy
+				</label>
+				<label class="radio-inline">
+					<input type="radio" name="q1" id="inlineRadio3" value="3"> Obama
+				</label>
+			</div>
+
+			<div class="question">2)  WHO WAS THE FIRST HUMAN TO TRAVEL INTO SPACE?</div>
+			<div>
+				<label class="radio-inline">
+					<input type="radio" name="q2" id="inlineRadio1" value="1">
+					YURI GAGARIN
+				</label>
+				<label class="radio-inline">
+					<input type="radio" name="q2" id="inlineRadio2" value="2">
+					Teddy
+				</label>
+				<label class="radio-inline">
+					<input type="radio" name="q2" id="inlineRadio3" value="3"> Obama
+				</label>
+			</div>
+		</div>-->
+
+		</div>
+</body>
+</html>
