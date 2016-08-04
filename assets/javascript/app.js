@@ -9,26 +9,26 @@ var _questions = [
 	{
 		id:'Q1',
 		q: "WHO WAS THE FIRST US PRESIDENT TO DECLARE WAR?",
-		options: { a: 'JAMES MADISON', b: 'GEORGE WASHINGTON', c: 'OBAMA', d: 'ABRAHAM LINCOLN' },
+		options: { a: 'James Madson', b: 'George Washington', c: 'Obama', d: 'Abraham Lincoln' },
 		a: 'a'
 	},
 	{
 		id:'Q2',
 		q: "WHO WAS THE FIRST HUMAN TO TRAVEL INTO SPACE?",
-		options: { a: 'SCOTT KELLY', b: 'YURI GAGARIN', c: 'SUNITA WILLIAMS', d: 'David' },
+		options: { a: 'Scott Kelly', b: 'Yuri Gagarin', c: 'Sunita Williams', d: 'David' },
 		a: 'b'
 	},
 	{
 		id:'Q3',
 		q: "WHO WAS THE FIRST MAN TO SET FOOT ON THE MOON?",
-		options: { a: 'YURI GAGARIN', b: 'NEIL ARMSTRONG', c: 'OBAMA', d: 'MICHAEL COLLINS' },
+		options: { a: 'Yuri GagarinYURI', b: 'Neil Armstrong', c: 'Obama', d: 'Michael Collins' },
 		a: 'b'
 	},
 
 	{
 		id:'Q4',
 		q: "WHICH IS THE MOST WIDELY SPOKEN LANGUAGE IN THE WORLD?",
-		options: { a: 'CHINESE', b: 'FRENCH', c: 'ENGLISH', d: 'ITALIAN' },
+		options: { a: 'Chinese', b: 'French', c: 'English', d: 'Itilian' },
 		a: 'a'
 	},
 
